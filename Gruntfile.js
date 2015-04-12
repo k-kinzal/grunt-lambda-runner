@@ -1,11 +1,5 @@
 'use strict';
-/*
- * lambda upload
- * https://github.com/k-kinzal/grunt-lambda-runner
- *
- * Copyright (c) 2012-2015 k-kinzal
- * Licensed under the MIT license.
- */
+
 module.exports = function (grunt) {
   // configuration
   var config = grunt.initConfig({

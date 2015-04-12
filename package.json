@@ -30,7 +30,7 @@
     "jshint-stylish": "^1.0.0"
   },
   "dependencies": {
-    "lambda-handler": "^0.1.0",
+    "lambda-handler": "^0.2.1",
     "path": "^0.11.14"
   }
 }
