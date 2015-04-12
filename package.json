@@ -1,6 +1,6 @@
 {
   "name": "grunt-lambda-runner",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Running AWS Lambda functions on local machine",
   "main": "task/lambda_runner.js",
   "scripts": {
