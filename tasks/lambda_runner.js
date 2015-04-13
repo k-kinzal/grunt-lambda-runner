@@ -17,12 +17,12 @@ module.exports = function (grunt) {
       var fail = context.fail;
 
       context.succeed = function(result) {
-        context.call(succeed, result);
+        succeed.call(context, result);
         done();
       };
 
       context.fail = function(result) {
-        context.call(fail, result);
+        fail.call(context, result);
         done(false);
       };
 
